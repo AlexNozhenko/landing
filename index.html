@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Test page</title>
+	<link rel="stylesheet" href="reset.css">
+	<link rel="preload" href="fonts.css" as="font" type="font/woff2">
+	<link rel="stylesheet" href="icofont/icofont.min.css">
+	<link rel="stylesheet" href="owl-carousel/owl.carousel.min.css">
+	<link rel="stylesheet" href="owl-carousel/owl.theme.default.min.css">
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="site-container">
+	<div class="form-container fade">
+		<form class="form form_call" action="mail.php" method="POST">
+			<label for="name" class="form__label">Имя:</label>
+			<input type="text" id="name" name="name" class="form__input form__input_text form__input_text_name">
+			<label for="phone" class="form__label">Телефон:</label>
+			<input type="text" id="phone" name="phone" class="form__input form__input_text form__input_text_phone phone_mask">
+			<label for="email" class="form__label">Email:</label>
+			<input type="text" id="email" name="email" class="form__input form__input_text form__input_text_email">
+			<input type="submit" class="form__input form__input_submit">
+		</form>
+	</div>
+	<header class="header">
+		<div class="content-container header-container">
+			<button class="button button_icon button_icon_menu" aria-label="open"><i class="icofont-navigation-menu"></i></button>
+			<button class="button button_icon button_icon_close" aria-label="close"><i class="icofont-close-squared-alt"></i></button>
+			<ul class="menu">
+				<li class="menu__item"><a href="#feats" class="menu__link">Услуги</a></li>
+				<li class="menu__item"><a href="#resume" class="menu__link">Портфолио</a></li>
+				<li class="menu__item"><a href="#banner" class="menu__link">Стоимость</a></li>
+			</ul>
+			<a href="tel:+7(499)995-77-55" class="number">+7 (499) 995-77-55</a>
+			<button class="button button_call button_call_top">Заказать звонок</button>
+			<button class="button button_icon button_icon_phone" aria-label="call"><i class="icofont-phone-circle"></i></button>
+		</div>
+	</header>
+	<main>
+		<div class="photo-container">
+			<div class="popup-menu-wrap fade">
+				<ul class="popup-menu">
+					<li class="popup-menu__item"><a href="#feats" class="popup-menu__link">Услуги</a></li>
+					<li class="popup-menu__item"><a href="#resume" class="popup-menu__link">Портфолио</a></li>
+					<li class="popup-menu__item"><a href="#banner" class="popup-menu__link">Стоимость</a></li>
+				</ul>
+			</div>
+			<div class="photo-container__item">{ }</div>
+			<div class="photo-container__item">#</div>
+			<div class="photo-container__item">&lt; div &gt;</div>
+			<div class="photo-container__item">&lt; div &gt;</div>
+			<div class="photo-container__item">&lt; / &gt;</div>
+			<img src="img/ellipse.webp" alt="ellipse" class="photo-container__img photo-container__img_ellipse">
+			<img src="img/man.webp" alt="man" class="photo-container__img photo-container__img_man">
+			<div class="content-container content-container_photo disable">
+				<h2 class="title_photo">Дмитрий Алексеев</h2>
+				<span class="photo-container__description">Frontend-разработчик и&nbsp;веб-верстальщик</span>
+				<button class="button button_order">Узнать больше</button>
+			</div>
+		</div>
+		<div class="present">
+			<div class="content-container">
+				<h2 class="title_present">Дмитрий Алексеев</h2>
+				<div class="present__description">Frontend-разработчик и веб-верстальщик</div>
+				<button class="button button_order button_order_center">Узнать больше</button>
+			</div>
+		</div>
+		<div class="feats" id="feats">
+			<div class="content-container">
+				<h3 class="title_skills">Что я делаю</h3>
+				<div class="skills-container">
+					<div class="skills"><div class="skills__description">Верстка лендинг-страниц и&nbsp;сайтов любой сложности</div></div>
+					<div class="skills"><div class="skills__description">Адаптивная вёрстка под все браузеры и&nbsp;устройства</div></div>
+					<div class="skills"><div class="skills__description">Frontend-разработка и&nbsp;программирование</div></div>
+					<div class="skills"><div class="skills__description">Исправление и&nbsp;доработка сущетсвующей вёрстки</div></div>
+				</div>
+				<button class="button button_order button_order_center">Узнать стоимость</button>
+			</div>
+		</div>
+		<div class="resume" id="resume">
+			<div class="content-container">
+				<h3 class="title-resume">Примеры моих работ</h3>
+				<div class="owl-carousel owl-theme">
+					<div class="item"><a href="#" class="resume__link"><img src="img/project-1.webp" alt="site" class="resume__img"></a><div class="resume__text">Сайт психолога Веры Антоновой</div></div>
+					<div class="item"><a href="#" class="resume__link"><img src="img/project-2.webp" alt="site" class="resume__img"></a><div class="resume__text">Сайт магазина детской одежды</div></div>
+					<div class="item"><a href="#" class="resume__link"><img src="img/project-3.webp" alt="site" class="resume__img"></a><div class="resume__text">Сайт магазина "Рыболов"</div></div>
+					<div class="item"><a href="#" class="resume__link"><img src="img/project-1.webp" alt="site" class="resume__img"></a><div class="resume__text">Сайт психолога Веры Антоновой</div></div>
+					<div class="item"><a href="#" class="resume__link"><img src="img/project-2.webp" alt="site" class="resume__img"></a><div class="resume__text">Сайт магазина детской одежды</div></div>
+					<div class="item"><a href="#" class="resume__link"><img src="img/project-3.webp" alt="site" class="resume__img"></a><div class="resume__text">Сайт магазина "Рыболов"</div></div>
+				</div>
+				<button class="button button_order button_order_center">Заказать проект</button>
+			</div>
+		</div>
+		<div class="banner" id="banner">
+			<div class="banner__item">{ }</div>
+			<div class="banner__item">#</div>
+			<div class="banner__item">&lt; div &gt;</div>
+			<div class="banner__item">&lt; / &gt;</div>
+			<div class="banner__item">{ }</div>
+			<div class="content-container">
+				<h4 class="title-banner">Адаптивная вёрстка под все устройства и&nbsp;браузеры от&nbsp;1000 рублей всего за&nbsp;4&nbsp;часа.*</h4>
+				<span class="banner__description">* Срок и&nbsp;стоимость могут отличаться от&nbsp;заявленных и&nbsp;рассчитываются индивидуально, в&nbsp;зависимости&nbsp;от&nbsp;сложности&nbsp;задач.
+				</span>
+			</div>
+		</div>
+	</main>
+	<footer class="footer">
+		<div class="content-container footer-container">
+			<ul class="menu-footer">
+				<li class="menu-footer__item"><a href="#feats" class="menu-footer__link">Услуги</a></li>
+				<li class="menu-footer__item"><a href="#resume" class="menu-footer__link">Портфолио</a></li>
+				<li class="menu-footer__item"><a href="#banner" class="menu-footer__link">Стоимость</a></li>
+			</ul>
+			<ul class="contacts">
+				<li class="contacts__item"><a href="tel:+7(499)995-77-55" class="contacts__link"><span class="icofont-phone contacts__icon"></span>+7 (499) 995-77-55</a></li>
+				<li class="contacts__item"><a href="mailto:dmitry@alekseev.com" class="contacts__link"><span class="icofont-email contacts__icon"></span>dmitry@alekseev.com</a></li>
+			</ul>
+			<div class="block">
+		    	<button class="button button_call button_call_footer">Заказать звонок</button>
+		    	<ul class='network'>
+					<li class="network__item"><a href="http://vk.com" target="_blank" aria-label="VK" class="network__link"></a></li>
+					<li class="network__item"><a href="http://facebook.com" target="_blank" aria-label="facebook" class="network__link"></a></li>
+					<li class="network__item"><a href="http://twitter.com" target="_blank" aria-label="twitter" class="network__link"></a></li>
+					<li class="network__item"><a href="http://instagram.com" target="_blank" aria-label="instagram" class="network__link"></a></li>	
+				</ul>
+			</div>
+		</div>
+	</footer>
+	<div class="cellar"><i class="icofont-copyright cellar__icon"></i>Дмирий Алексеев, 2016-2018</div>
+</div>
+<script src="jquery-3.3.1.min.js"></script>
+<script src="owl-carousel/owl.carousel.min.js"></script>
+<script src="jquery.inputmask.min.js"></script>
+<script src="jquery.validate.min.js"></script>
+<script src="script.js"></script>
+</body>
